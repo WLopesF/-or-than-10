@@ -1,5 +1,5 @@
 function maioroumenor(){
-  let numero = number(prompt("Insira o seu número de escolha"))
+  let numero = Number(prompt("Insira o seu número de escolha"))
 
   if (numero < 10) {
     alert("O seu número é menor que 10.")
@@ -8,6 +8,5 @@ function maioroumenor(){
   } else {
     alert("O seu número é igual a 10.")
   }
-
 }
   
