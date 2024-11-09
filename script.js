@@ -1,6 +1,5 @@
-function maioroumenor() {
-
-  let numero = float(prompt("Insira o seu número de escolha")
+function maioroumenor(){
+  let numero = number(prompt("Insira o seu número de escolha"))
 
   if (numero < 10) {
     alert("O seu número é menor que 10.")
