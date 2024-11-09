@@ -1,13 +1,14 @@
-function maioroumenor():
+function maioroumenor() {
 
-  let numero = prompt("Insira o seu número de escolha")
+  let numero = float(prompt("Insira o seu número de escolha")
 
-if (numero < 10) {
+  if (numero < 10) {
     alert("O seu número é menor que 10.")
-} else if (numero > 10) {
+  } else if (numero > 10) {
     alert("O seu número é maior que 10.")
-} else {
+  } else {
     alert("O seu número é igual a 10.")
-}
+  }
 
+}
   
